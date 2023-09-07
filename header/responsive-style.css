@@ -1,0 +1,16 @@
+@media(max-width:991px) {
+
+
+
+	/* navbar */
+
+
+	.header_wrapper .menu-navbar-nav {
+		text-align: center;
+		padding-bottom: .9375rem;
+	}
+
+	.header_wrapper .nav-item .nav-link {
+		margin-top: .9375rem;
+	}
+}

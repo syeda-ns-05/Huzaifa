@@ -1,0 +1,61 @@
+
+.heading1{ 
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+
+}
+.form h5 {
+    width: 220px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+    font-family: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.p{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+  .disabled {
+    pointer-events:none; 
+    opacity:0.6;         
+}
+
+
+#container{
+    margin-top: 30px;
+    background: black;
+    background-size: cover;
+    height: 109vh;
+    border-radius: 100px;
+}
+.btn{
+    width: 250px;
+    height: 40px;
+    background: rgb(222, 198, 252);
+    color: 2px solid rgb(134, 188, 224);
+    margin-top: 13px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+@media(min-width:768px){
+.container-md .container-sm{
+    max-width: width 720px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+}
