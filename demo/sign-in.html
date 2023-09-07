@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script>"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("./serviceworker.js").then(e=>console.log("Service Worker Registration Success: ",e.scope)).catch(e=>console.log("Service Worker Registration Failure: ",e))})</script>
+    <title>Retail center</title>
+    <link href="./static/css/2.11c4853a.chunk.css" rel="stylesheet">
+    <link href="./static/css/main.bf401255.chunk.css" rel="stylesheet">   
+</head>
+<style>
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.container{
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 8px;
+    background: rgb(241, 229, 229);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.container header{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+.container .form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form .input-box input{
+    position: relative;
+    height: 50px;
+    width: 80%;
+    outline: none;
+    border: 2.5px solid rgb(116, 188, 212);
+    border-radius: 8px;
+    padding: 0 30px;
+    font-size: 22px;
+    margin-left: 15px; 
+    margin-bottom: 20px;
+}
+.form .input-box button{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 450px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 6px;
+    background: rgb(61, 125, 197);
+    color: white;
+    border: 2px solid rgb(61, 125, 197);  
+}
+.form .input-box button:hover{
+    background: blue;
+}
+@media(min-width:400px){
+    .btn{display: flex;
+    margin-top: 30px;
+    margin-left: 450px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 6px;
+    background: rgb(61, 125, 197);
+    color: white;
+    border: 2px solid rgb(61, 125, 197);
+    }
+}
+    
+</style>
+<body>
+    <section class="container">
+        <header>Enter Phone Number</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <img src="flag.png" height="40">
+                <input type="text" placeholder="10 Digit Mobile Number"><br><br>
+                <small id="form-text text-muted" style="font-size: 18px; margin-left: 70px;" >We'll never share your Phone Number with anyone else.</small>
+                <div class="move-right mt-2">
+                    <button id="sign-in-button" type="submit">Send OTP</button>
+                </div>
+            </div>
+        </form>
+    </section>
+   
+    
+</body>
+</html>

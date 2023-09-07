@@ -1,11 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Retail center</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 80%;
+        margin: 80px auto;
+        justify-content: center;
+    }
+
+    .container p {
+        margin-bottom: 50px;
+    }
+
+    .btn-1{
+        font-size:15px ;
+        font-weight: 500;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: -5px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 10px;
+    }
+
+    .btn-2 {
+        font-size: 15px;
+        font-weight: 500;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        margin-left: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 10px;
+    }
+
+    .btn-3 {
+        font-size: 15px;
+        font-weight: 500;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        margin-left: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+
+    }
+
+    .btn {
+        font-size: 20px;
+        font-weight: 500;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        margin-left: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .btn-dark:hover {
+        background: gray;
+    }
+
+    .main {
+        border: 1px solid black;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        color: white;
+        padding-top: 5px;
+        font-size: 25px;
+        font-weight: 600;
+        background: black;
+    }
+
+    .row a {
+        padding-left: 20px;
+    }
+
+    /* media queries */
+    /* @media(min-width:400px) {
+        .btn {
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 5px;
+            padding: 0;
+            color: white;
+            width: 40%;
+
+        }
+    }  */
+</style>
+
 <body>
-    <h1>Demo</h1>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 col-lg-6">
+                <div>
+                    <div class="main">
+                        <h6 class="text-center mt-2">FOLLOW THREE SIMPLE STEPS</h6>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <img src="user.png" height="80">
+                            <a href="https://www.retailcenter.io/login" class="text-dark col-lg-4">
+                                <button class="btn-1 btn-dark d-flex justify-content-center">SIGN IN</button>
+                            </a>
+                        </div>
+                        <div class="col">
+
+                            <a href="#" class="text-dark d-flex  col-lg-4">
+                                <img src="page.png" height="80">
+                            </a>
+                            <button class="btn-2 btn-dark justify-content-center d-flex">On Boarding</button>
+                        </div>
+                        <div class="col">
+                            <a href="" class="text-dark ">
+                                <img src="Land.png" height="80">
+                            </a>
+                            <button class="btn-3 btn-dark justify-content-center d-flex">SETUP</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-12 col-lg-6">
+                <p class="mt-5">"We are committed to delivering exceptional service and quality, and we can create
+                    your
+                    mobile-friendly e-store Within 24 hours. Our team of experienced developers and designers will
+                    work
+                    tirelessly to ensure your online store is not only visually appealing but also optimized for
+                    seamless mobile browsing. We understand the importance of a fast turnaround time in the
+                    competitive
+                    e-commerce landscape, and we're here to help you launch your e-store quickly and efficiently.
+                    Contact us today to discuss your requirements and let us bring your online business vision to
+                    life
+                    within just one day."</p>
+                <a href="https://app.retailcenter.io" target="_blank">
+                    <button class="btn btn-dark mb-20">TRY DEMO APP</button>
+                </a>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
