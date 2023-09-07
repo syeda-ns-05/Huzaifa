@@ -50,8 +50,8 @@
 }
 
 @media(min-width:768px){
-.container-md, .container-sm{
-    max: width 720px;
+.container-md .container-sm{
+    max-width: width 720px;
 }
 
 *{
