@@ -1,0 +1,79 @@
+.header_wrapper .navbar {
+	border: 2px solid white;
+	background-color: #2AA198;
+	border-radius: 5px;
+	padding: 0;
+
+}
+
+
+
+.header_wrapper .navbar-toggle {
+	padding: 0px;
+	margin-left: 2px;
+
+
+}
+
+
+
+
+.header_wrapper .nav-item {
+	margin: 0 .625rem;
+}
+
+.header_wrapper .nav-item .nav-link {
+	font-size: 1rem;
+	font-weight: 500;
+	color: black;
+	display: inline-block;
+}
+
+.header_wrapper .nav-item .nav-link:hover,
+.header_wrapper .nav-item .nav-link.active {
+	color: rgb(240, 157, 89);
+}
+
+.navbar.header-scrolled {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background-color: rgba(255, 255, 255, .85);
+	-webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+	animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+@keyframes fadeInDown {
+	0% {
+		top: -30%;
+	}
+
+	50% {
+		top: -15%;
+	}
+
+	100% {
+		top: 0;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
